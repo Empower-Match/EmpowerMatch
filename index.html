@@ -1,0 +1,690 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <title>EmpowerMatch</title>
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/images/logo.png"
+    />
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/templatemo-chain-app-dev.css">
+    <link rel="stylesheet" href="assets/css/animated.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+
+  </head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+              <img src="assets/images/logo.png" alt="Chain App Dev">
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+              <li class="scroll-to-section"><a href="#services">Services</a></li>
+              <li class="scroll-to-section"><a href="#about">About</a></li>
+              <li class="scroll-to-section"><a href="#pricing">Pricing</a></li>
+              <li class="scroll-to-section"><a href="#newsletter">Newsletter</a></li>
+              <li><div class="gradient-button"><a id="modal_trigger" href="#modal"><i class="fa fa-sign-in-alt"></i> Sign In Now</a></div></li> 
+            </ul>        
+            <a class='menu-trigger'>
+                <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+  
+  <div id="modal" class="popupContainer" style="display:none;">
+    <div class="popupHeader">
+        <span class="header_title">Login</span>
+        <span class="modal_close"><i class="fa fa-times"></i></span>
+    </div>
+
+    <section class="popupBody">
+        <!-- Social Login -->
+        <div class="social_login">
+            <div class="">
+                <a href="#" class="social_box fb">
+                    <span class="icon"><i class="fab fa-facebook"></i></span>
+                    <span class="icon_title">Connect with Facebook</span>
+
+                </a>
+
+                <a href="#" class="social_box google">
+                    <span class="icon"><i class="fab fa-google-plus"></i></span>
+                    <span class="icon_title">Connect with Google</span>
+                </a>
+            </div>
+
+            <div class="centeredText">
+                <span>Or use your Email address</span>
+            </div>
+
+            <div class="action_btns">
+                <div class="one_half"><a href="#" id="login_form" class="btn">Login</a></div>
+                <div class="one_half last"><a href="#" id="register_form" class="btn">Sign up</a></div>
+            </div>
+        </div>
+
+        <!-- Username & Password Login form -->
+        <div class="user_login">
+            <form>
+                <label>Email / Username</label>
+                <input type="text" />
+                <br />
+
+                <label>Password</label>
+                <input type="password" />
+                <br />
+
+                <div class="checkbox">
+                    <input id="remember" type="checkbox" />
+                    <label for="remember">Remember me on this computer</label>
+                </div>
+
+                <div class="action_btns">
+                    <div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Back</a></div>
+                    <div class="one_half last"><a href="#" class="btn btn_red">Login</a></div>
+                </div>
+            </form>
+
+            <a href="#" class="forgot_password">Forgot password?</a>
+        </div>
+
+        <!-- Register Form -->
+        <div class="user_register">
+            <form>
+                <label>Full Name</label>
+                <input type="text" />
+                <br />
+
+                <label>Email Address</label>
+                <input type="email" />
+                <br />
+
+                <label>Password</label>
+                <input type="password" />
+                <br />
+
+                <div class="checkbox">
+                    <input id="send_updates" type="checkbox" />
+                    <label for="send_updates">Send me occasional email updates</label>
+                </div>
+
+                <div class="action_btns">
+                    <div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Back</a></div>
+                    <div class="one_half last"><a href="#" class="btn btn_red">Register</a></div>
+                </div>
+            </form>
+        </div>
+    </section>
+</div>
+
+  <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-6 align-self-center">
+              <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <h2>Get The Latest Virtual Mouse Setup</h2>
+                    <p>The Virtual Mouse project created by Daniel Falodun is a software-based interface that emulates traditional mouse functionalities using gestures or device motion, offering an alternative input method for computer interaction without a physical mouse.</p>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="white-button first-button scroll-to-section">
+                      <a href="https://www.dropbox.com/scl/fi/4cra4hqacyxjokieyb236/EmpowerMatch_VirtualMouse_1.5_WINDOWS_1.5_setup.exe?rlkey=vo57lzwntig9587amzfq6n942&dl=0">Set Up For Windows <i class="fab fa-apple"></i></a>
+                    </div>
+                  </div>
+                  <p></p>
+                  <div class="col-lg-12">
+                    <div class="white-button first-button scroll-to-section">
+                      <a href="https://www.dropbox.com/scl/fi/onpdmmqse0qrinzoly9gd/README-1.md?rlkey=x7m7bls3tvzs22kvjzf1jicjb&dl=0">Read.me <i class="fab fa-apple"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                <img src="assets/images/slider-dec.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="services" class="services section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+            <h4>Empowering Accessibility <em>Services &amp; Features</em> for you</h4>
+            <img src="assets/images/heading-line-dec.png" alt="">
+            <p>In the realm of technological innovation, there lies a profound opportunity to create solutions that transcend conventional boundaries and serve communities in need. My journey into the development of an innovative project, a virtual mouse, is rooted in a deep-seated desire to bring about positive change for an underserved community.
+
+              The inception of this project was not fueled by profit margins or commercial interests, but rather by a genuine commitment to address the challenges faced by individuals with limited mobility. Witnessing the daily struggles of those navigating the digital landscape with conventional tools, the motivation to provide an alternative solution took root.
+              
+              The driving force behind this endeavor was the acknowledgment that technological advancements should be inclusive, reaching every corner of society. It was disheartening to witness the glaring disparities in accessibility, where certain communities were left behind due to the lack of tailored solutions. This realization became the catalyst for the creation of a virtual mouse, a tool that could empower individuals with limited mobility to interact with technology on their terms.
+              
+              In the journey to develop this virtual mouse, a conscious decision was made to keep it free of any monetization strategies. The goal was clear — to ensure that the solution remains accessible to those who need it the most, without imposing financial barriers. This commitment to providing a free and accessible solution was not only a moral imperative but a reflection of the core values that underscore this project.
+              
+              The project's emphasis on eye and head movements as control mechanisms adds a layer of personalization, recognizing and respecting the unique abilities of each user. The aim is to offer a seamless and intuitive experience, allowing individuals to navigate the digital landscape with the same ease and fluidity as those without mobility constraints.
+              
+              As the project progresses, it is fueled not by profit margins but by the collective impact it can have on the lives of individuals within the underserved community. The sense of fulfillment and purpose derived from knowing that this endeavor contributes to breaking down barriers and fostering inclusivity is the driving force that propels the project forward.
+              
+              In conclusion, the development of this virtual mouse is a testament to the transformative power of passion-driven innovation. The motivation to bring about positive change in the lives of an underserved community, coupled with a commitment to maintaining accessibility without monetary barriers, underscores the ethos of this project. It serves as a reminder that technology has the potential to be a force for good, leveling the playing field and ensuring that innovation reaches the hands of those who need it the most.
+              I am Daniel Falodun a 17-year-old dynamic tech prodigy with a track record of innovation and leadership with a determination to provide accessibility solutions for underserved communities
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="service-item first-service">
+            <div class="icon"></div>
+            <h4>App Maintenance</h4>
+            <p>We're committed to keeping your virtual mouse app running smoothly. Our diligent maintenance ensures peak performance, providing you with uninterrupted accessibility through effortless eye and head control.</p>
+     
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="service-item second-service">
+            <div class="icon"></div>
+            <h4>Rocket Speed of App</h4>
+            <p>Lightning-Fast App Performance"
+              Experience the speed of progress! Our virtual mouse app is engineered for rocket-speed performance, ensuring swift and seamless navigation through intuitive eye and head controls</p>
+            
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="service-item third-service">
+            <div class="icon"></div>
+            <h4>Continuous Improvement for Ultimate Effectiveness</h4>
+            <p>As we strive for excellence, your feedback is invaluable. If you encounter any issues while using our virtual mouse, please report them to us. We're dedicated to refining and enhancing its effectiveness to better serve your needs.</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="service-item fourth-service">
+            <div class="icon"></div>
+            <h4>24/7 Help &amp; Support</h4>
+            <p>We're here for you day and night! Our dedicated support team ensures you receive assistance 24/7. No matter when you need us, we're committed to providing reliable help and support for your virtual mouse experience.</p>
+            <div class="text-button">
+              <a href="mailto:empowermatch@gmail.com
+              ">Contact <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="about" class="about-us section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 align-self-center">
+          <div class="section-heading">
+            <h4>About <em>What We Do</em> &amp; Who We Are</h4>
+            <img src="assets/images/heading-line-dec.png" alt="">
+            <p>We're on a mission to revolutionize accessibility. Our focus is crafting innovative solutions like the virtual mouse, designed to empower those with limited mobility. At our core, we're driven by the belief that technology should break barriers, not create them. Join us in making a difference.</p>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="box-item">
+                <h4><a href="#">Maintance Problems</a></h4>
+                <p>We understand the importance of seamless functionality. If you encounter any maintenance issues with our virtual mouse or have concerns, please reach out. Our dedicated team is committed to swiftly addressing and resolving any problems to ensure a smooth and reliable experience for you.</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="box-item">
+                <h4><a href="#">Fixing Issues About</a></h4>
+                <p>Your satisfaction matters. If you're facing any problems or issues with our virtual mouse, let us know. Our team is dedicated to swiftly resolving any concerns you have, ensuring a smoother and more effective experience for you.</p>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              
+              <div class="gradient-button">
+                <a href="https://forms.office.com/r/5EdFG0gRQu
+                ">Help Us Empower Paralyzed Individuals to Match Others' Abilities</a>
+              </div>
+              <span>*No Credit Card Required</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="right-image">
+            <img src="assets/images/about-right-dec.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="clients" class="the-clients">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="section-heading">
+            <h4>Check What <em>The Clients Say</em> About Our Solution</h4>
+            <img src="assets/images/heading-line-dec.png" alt="">
+            <p>Discover what our clients have to say about the transformative impact of our solution on their accessibility journey.</p>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="naccs">
+            <div class="grid">
+              <div class="row">
+                <div class="col-lg-7 align-self-center">
+                  <div class="menu">
+                    <div class="first-thumb active">
+                      <div class="thumb">
+                        <div class="row">
+                          <div class="col-lg-4 col-sm-4 col-12">
+                            <h4>Adeyemi Adejeko</h4>
+                            <span class="date">14 January 2024</span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 d-none d-sm-block">
+                            <span class="category">Founder at NodePair</span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 col-12">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <span class="rating">4.8</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="thumb">
+                        <div class="row">
+                          <div class="col-lg-4 col-sm-4 col-12">
+                            <h4>Oluwalonimi bankole</h4>
+                            <span class="date">12 January 2024</span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 d-none d-sm-block">
+                            <span class="category">Students</span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 col-12">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <span class="rating">4.5</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="thumb">
+                        <div class="row">
+                          <div class="col-lg-4 col-sm-4 col-12">
+                            <h4> olamiji ogunbowale</h4>
+                            <span class="date">13 January 2024</span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 d-none d-sm-block">
+                            <span class="category">Business &amp; Economics</span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 col-12">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <span class="rating">4.7</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="thumb">
+                        <div class="row">
+                          <div class="col-lg-4 col-sm-4 col-12">
+                            <h4>Dabira mayowa</h4>
+                            <span class="date">14 January 2024</span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 d-none d-sm-block">
+                            <span class="category">Student </span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 col-12">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <span class="rating">3.9</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div> 
+                <div class="col-lg-5">
+                  <ul class="nacc">
+                    <li class="active">
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <div class="client-content">
+                                <img src="assets/images/quote.png" alt="">
+                                <p>as the founder of a platform that solve problem. I can really see myself in the vision and goal of this project which is to focus on underserved community and low-income family while solving a problem. I am really impress with your mindset and your passion on focusing on people that are impaired in an underserved community</p>
+                              </div>
+                              <div class="down-content">
+                                <img src="assets/images/python.jpg" alt="">
+                                <div class="right-content">
+                                  <h4>Founder at NodePair</h4>
+                                  <span>  </span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <div class="client-content">
+                                <img src="assets/images/quote.png" alt="">
+                                <p>The Virtual Mouse has been a game-changer for me. Its intuitive control through eye and head movements has given me a newfound sense of independence. A heartfelt thank you to Daniel Falodun my classmate for this empowering tool that goes beyond technology—it's a lifeline to inclusion</p>
+                              </div>
+                              <div class="down-content">
+                                <img src="assets/images/lonimi.jpg" alt="">
+                                <div class="right-content">
+                                  <h4>Oluwalonimi bankole</h4>
+                                  <span>Student at community innovation hub</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <div class="client-content">
+                                <img src="assets/images/quote.png" alt="">
+                                <p>“The Virtual Mouse has genuinely changed my life. The smooth control of eye and head movements has not only given me freedom but also opened me to a world of possibilities. A heartfelt thank you to the amazing brain Daniel who created this wonderful instrument, which has been my lifeline to inclusion and a source of renewed freedom.”</p>
+                              </div>
+                              <div class="down-content">
+                                <img src="assets/images/olamihi.jpg" alt="">
+                                <div class="right-content">
+                                  <h4> olamiji ogunbowale</h4>
+                                  <span>Student</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <div class="client-content">
+                                <img src="assets/images/quote.png" alt="">
+                                <p>Daniel i dont know where to start thanking you from this app is wonderful and i hope you win the rise global scholarship in other to keep on providing for people like me i have not been able to access my computer for years now as i only rely on my friends to assist me with it today i could move my mouse and click on items am so proud of my self thank you daniel for what you do !</p>
+                              </div>
+                              <div class="down-content">
+                                <img src="assets/images/quote.png" alt="">
+                                <div class="right-content">
+                                  <h4>Dabira mayowa</h4>
+                                  <span>Student</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <div class="client-content">
+                                <img src="assets/images/quote.png" alt="">
+                                <p>“Mark, Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eismod tempor idunte ut labore et dolore magna aliqua darwin kengan
+                                  lorem ipsum dolor sit amet, consectetur picing elit massive big blasta.”</p>
+                              </div>
+                              <div class="down-content">
+                                <img src="assets/images/client-image.jpg" alt="">
+                                <div class="right-content">
+                                  <h4>Mark Am</h4>
+                                  <span>CTO, Amber Do Company</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>          
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="pricing" class="pricing-tables">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="section-heading">
+            <h4>We Have The Best Pre-Order <em>Accessibility Devices</em> You Can Get Free</h4>
+            <img src="assets/images/heading-line-dec.png" alt="">
+            <p>Be among the first to access cutting-edge accessibility devices. Secure your spot for pre-order and get these top-tier devices absolutely free.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="pricing-item-regular">
+            <span class="price">Free</span>
+            <h4>My Inclusive Assistant</h4>
+            <div class="icon">
+              <img src="assets/images/pricing-table-01.png" alt="">
+            </div>
+            <p>
+              Introducing MIA: Revolutionizing Accessibility
+                MIA, or My Inclusive Assistant, is a pioneering mobile and desktop application still in development. It aims to offer comprehensive solutions for various disabilities within a single platform. Users will create personalized accounts and select their specific disability from diverse sections tailored to individual needs. MIA seeks to unify accessibility solutions, providing tailored support to enhance the lives of users across the spectrum of disabilities.
+              </p>
+            <div class="border-button">
+              <a href="#">Coming Soon: Stay Tuned for the Future of Accessibility!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="pricing-item-pro">
+            <span class="price">Free</span>
+            <h4>NavigateX</h4>
+            <div class="icon">
+              <img src="assets/images/pricing-table-01.png" alt="">
+            </div>
+            <p>
+              NavigateX: Empowering Control
+                NavigateX is an evolving project centered around the development of a virtual mouse. Designed to empower individuals facing mobility limitations, NavigateX revolutionizes navigation through intuitive control systems activated by eye and head movements. By providing seamless and precise control, NavigateX redefines accessibility for a more inclusive digital experience.
+              </p>
+            <div class="border-button">
+              <a href="https://www.dropbox.com/scl/fi/4cra4hqacyxjokieyb236/EmpowerMatch_VirtualMouse_1.5_WINDOWS_1.5_setup.exe?rlkey=vo57lzwntig9587amzfq6n942&dl=0">Download This App Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="pricing-item-regular">
+            <span class="price">Free</span>
+            <h4>PathPilot</h4>
+            <div class="icon">
+              <img src="assets/images/pricing-table-01.png" alt="">
+            </div>
+            <p>
+              PathPilot: Intelligent Mobility Solution
+                PathPilot introduces an automated wheelchair system seamlessly integrated with mapping technology. This innovative solution offers users the freedom to navigate effortlessly along designated walkways. By connecting to a mapped network, PathPilot provides independent mobility, ensuring safe and efficient transportation to desired destinations within walkway-accessible areas.
+              </p>
+            <div class="border-button">
+              <a href="#">Coming Soon: Stay Tuned for the Future of Accessibility!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+  <footer id="newsletter">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="section-heading">
+            <h4>Join our mailing list to receive the news &amp; latest trends</h4>
+          </div>
+        </div>
+        <div class="col-lg-6 offset-lg-3">
+          <form id="search" action="#" method="GET">
+            <div class="row">
+              <div class="col-lg-6 col-sm-6">
+                <fieldset>
+                  <input type="address" name="address" class="email" placeholder="Email Address..." autocomplete="on" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-6 col-sm-6">
+                <fieldset>
+                  <button type="submit" class="main-button">Subscribe Now <i class="fa fa-angle-right"></i></button>
+                </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="footer-widget">
+            <h4>Contact Us</h4>
+            <p>11, Odetayo Street Ikola Ilumo Ipaja Lagos</p>
+            <p><a href="#">+2348169892424</a></p>
+            <p><a href="mailto:empowermatch@gmail.com
+              ">empowermatch@gmail.com
+              </a></p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="footer-widget">
+            <h4>About Us</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Testimonials</a></li>
+              <li><a href="#">Pricing</a></li>
+            </ul>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Testimonials</a></li>
+              <li><a href="#">Pricing</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="footer-widget">      
+            <ul>
+              <li><a href="https://falodun-daniel.netlify.app/">App Dev Team : Falodun Daniel</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="footer-widget">
+            <h4>About Our Company</h4>
+            <div class="logo">
+              <img src="assets/images/logo.png" alt="">
+            </div>
+            <p>Empowering Accessibility for All, One Innovation at a Time.
+              Our company is dedicated to pioneering innovative solutions that break barriers and foster inclusivity, ensuring everyone has equal access and opportunity
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="copyright-text">
+            <p>Copyright © 2024 Empower Match. All Rights Reserved. 
+          <br>CEO: <a href="https://falodun-daniel.netlify.app/" target="_blank" title="contacts">Daniel Falodun</a><br>
+        
+          Distributed By: <a href="https://falodun-daniel.netlify.app/" target="_blank" title="101's Worlds">Programmer 101</a>
+        </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Scripts -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/animation.js"></script>
+  <script src="assets/js/imagesloaded.js"></script>
+  <script src="assets/js/popup.js"></script>
+  <script src="assets/js/custom.js"></script>
+</body>
+</html>
